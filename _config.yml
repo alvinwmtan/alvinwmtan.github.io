@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Alvin
-middle_name: W. M.
-last_name: Tan
+first_name: 
+middle_name: 
+last_name: Alvin Tan
 footer_text: © 2024 Alvin Tan
 keywords: # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
