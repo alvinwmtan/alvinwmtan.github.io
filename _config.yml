@@ -250,7 +250,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Tan]
-  first_name: ["Alvin", "Alvin Wei Ming", "Alvin W.M.", "A.", "A.W.M."]
+  first_name: ["Alvin", "Alvin Wei Ming", "Alvin W. M.", "A.", "A.W.M."]
 
   style: apa
   locale: en
