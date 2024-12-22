@@ -2,15 +2,22 @@
 # the commented lines are the default social media links supported by the template
 # the socials will be displayed in the order they are defined here
 
+email: alvinweimingtan@gmail.com # your email address
+scholar_userid: pMIzHZ4AAAAJ # your Google Scholar ID
+orcid_id: 0000-0001-5551-7507 # your ORCID ID
+github_username: alvinwmtan # your GitHub user name
+x_username: alvinwmtan # your X handle
+bluesky_url: https://bsky.app/profile/alvinwmtan.bsky.social # your bluesky URL
+
 # acm_id: # your dl.acm.org/profile/id
 # blogger_url: # your blogger URL
-bluesky_url: alvinwmtan.bsky.social # your bluesky URL
+
 # dblp_url: # your DBLP profile url
 # discord_id: # your discord id (18-digit unique numerical identifier)
-email: alvinweimingtan@gmail.com # your email address
+
 # facebook_id: # your facebook id
 # flickr_id: # your flickr id
-github_username: alvinwmtan # your GitHub user name
+
 # gitlab_username: # your GitLab user name
 # ieee_id: # your ieeexplore.ieee.org/author/id
 # inspirehep_id: # Inspire HEP author ID
@@ -23,14 +30,14 @@ github_username: alvinwmtan # your GitHub user name
 # linkedin_username: # your LinkedIn user name
 # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 # medium_username: # your Medium username
-orcid_id: 0000-0001-5551-7507 # your ORCID ID
+
 # osf_id: # your OSF ID
 # pinterest_id: # your pinterest id
 # publons_id: # your ID on Publons
 # quora_username: # your Quora username
 # research_gate_profile: # your profile on ResearchGate
 # rss_icon: true # set to true to show the RSS icon
-scholar_userid: pMIzHZ4AAAAJ # your Google Scholar ID
+
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID
 # spotify_id: # your spotify id
@@ -42,7 +49,7 @@ scholar_userid: pMIzHZ4AAAAJ # your Google Scholar ID
 # wikidata_id: # your wikidata id
 # wikipedia_id: # your wikipedia id (Case sensitive)
 # work_url: # work page URL
-x_username: alvinwmtan # your X handle
+
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
 # custom_social: # can be any name here other than the ones already defined above
