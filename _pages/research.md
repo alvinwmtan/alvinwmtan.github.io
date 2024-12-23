@@ -23,7 +23,7 @@ What kinds of language inputs do children receive? How do they vary within and a
 
 ## early word learning across linguistic environments
 
-What are the cross-linguistic patterns in word learning? How are early vocabularies shaped by experiences of bi- or multilingualism? I use statistical modelling to understand word- and child-level predictors of word learning.
+What are the cross-linguistic patterns in word learning? How are early vocabularies shaped by experiences of multilingualism? I use statistical modelling to understand word- and child-level predictors of word learning.
 
 - How do the different languages heard by a <strong>bilingual</strong> child affect their language learning?
   - <ins>Tan</ins>, Marchman, & Frank (2024). "The role of translation equivalents in bilingual word learning." <em>Developmental Science.</em> <a href="https://doi.org/10.1111/desc.13476">[paper]</a>
