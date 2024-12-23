@@ -31,8 +31,8 @@ What are the cross-linguistic patterns in word learning? How are early vocabular
   - <ins>Tan</ins>, Kachergis, Marchman, Frank, Mayor, et al. (in progress). "Exploring the relationship between language exposure and vocabulary in bilingual children."
 
 - What does word learning look like <strong>cross-linguistically</strong>? What are the consistencies and variations in early vocabulary across languages?
-  - <ins>Tan<sup>\*</sup></ins>, Loukatou<sup>\*</sup>, Braginsky, Mankewitz, & Frank (2024). "Predicting ages of acquisition for children's early vocabulary across 27 languages and dialects." <em>CogSci Proceedings.</em> <a href="https://escholarship.org/uc/item/3s69v6kt">[paper]</a>
-  - <ins>Tan<sup>\*</sup></ins>, Kachergis<sup>\*</sup>, Marchman, Dale, & Frank (2023). "Measuring children's early vocabulary in low-resource languages using a Swadesh-style word list." <em>CogSci Proceedings.</em> <a href="https://escholarship.org/uc/item/45d8890w">[abs]</a>
+  - <ins>Tan</ins><sup>\*</sup>, Loukatou<sup>\*</sup>, Braginsky, Mankewitz, & Frank (2024). "Predicting ages of acquisition for children's early vocabulary across 27 languages and dialects." <em>CogSci Proceedings.</em> <a href="https://escholarship.org/uc/item/3s69v6kt">[paper]</a>
+  - <ins>Tan</ins><sup>\*</sup>, Kachergis<sup>\*</sup>, Marchman, Dale, & Frank (2023). "Measuring children's early vocabulary in low-resource languages using a Swadesh-style word list." <em>CogSci Proceedings.</em> <a href="https://escholarship.org/uc/item/45d8890w">[abs]</a>
 
 ## machine learning models as cognitive models
 
