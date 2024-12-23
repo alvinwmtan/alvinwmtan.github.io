@@ -1,11 +1,11 @@
-–-
+---
 layout: page
 title: research
 permalink: /research/
 nav: true
 nav_order: 3
 horizontal: false
-–-
+---
 
 Broadly, my research aims to understand the variation in children's early language environments, and its effects on children's language abilities. Below are a few key research areas and some representative projects.
 
