@@ -14,7 +14,7 @@ Broadly, my research aims to understand the variation in children's early langua
 What kinds of language inputs do children receive? How do they vary within and across children? I am interested in collecting naturalistic data from young children and analysing the distributions of such data.
 
 - What are the actual <strong>audiovisual experiences</strong> of young children? How can we quantify and qualify their input "in the wild"?
-  - Long<sup>\*</sup>, Xiang<sup>\*</sup>, Stojanov<sup>\*</sup>, Sparks, Yin, Keene, <ins>Tan</ins>, Feng, Zhuang, Marchman, Yamins, & Frank (2024). "The BabyView dataset: High-resolution egocentric videos of infants' and young children's everyday experiences." <em>arXiv preprint.</em> <a href="https://doi.org/10.48550/arXiv.2406.10447">[paper]</a>
+  - Long<sup>\*</sup>, Xiang<sup>\*</sup>, Stojanov<sup>\*</sup>, Sparks, Yin, Keene, <ins>Tan</ins>, Feng, Zhuang, Marchman, Yamins, & Frank (2024). "The BabyView dataset: High-resolution egocentric videos of infants' and young children's everyday experiences." <em>CCN Proceedings.</em> <a href="https://doi.org/10.48550/arXiv.2406.10447">[preprint]</a>
   - Sparks, Long, Keene, Perez, <ins>Tan</ins>, Marchman, & Frank (2024). "Characterizing contextual variation in children's preschool language environment using naturalistic egocentric videos." <em>CogSci Proceedings.</em> <a href="https://escholarship.org/uc/item/94j9m5v1">[paper]</a>
 
 - <strong>Shared book reading</strong> is a particularly rich source of children's language input. How do children's books differ from child-directed speech?
@@ -27,7 +27,7 @@ What are the cross-linguistic patterns in word learning? How are early vocabular
 
 - How do the different languages heard by a <strong>bilingual</strong> child affect their language learning?
   - <ins>Tan</ins>, Marchman, & Frank (2024). "The role of translation equivalents in bilingual word learning." <em>Developmental Science.</em> <a href="https://doi.org/10.1111/desc.13476">[paper]</a>
-  - <ins>Tan</ins> & Frank (2024). "Syntactic category bias in early bilingual vocabularies." <em>Bay Area Developmental Symposium.</em> <a href="https://docs.google.com/presentation/d/15DnNuemS27dvTNQzBhLiF5Gb4C8PPGs7M-Tmzt7DF_I/edit?usp=sharing">[slides]</a>
+  - <ins>Tan</ins> & Frank (2024). "Syntactic category bias in early bilingual vocabularies." <em>Bay Area Developmental Symposium.</em> <a href="https://doi.org/10.31234/osf.io/fpb62_v1">[preprint]</a>
   - <ins>Tan</ins>, Kachergis, Marchman, Frank, Mayor, et al. (in progress). "Exploring the relationship between language exposure and vocabulary in bilingual children."
 
 - What does word learning look like <strong>cross-linguistically</strong>? What are the consistencies and variations in early vocabulary across languages?
