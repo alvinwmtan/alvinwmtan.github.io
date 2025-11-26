@@ -49,8 +49,8 @@ The process of language learning is difficult to model, but recent advances in m
   - <ins>Tan</ins>, Hu, Long, & Frank (in progress). "Training vision–language models from the child's perspective."
 
 - How do models and humans compare in more complex language tasks requiring <strong>pragmatics</strong>?
-  - Boyce, Prystawski, <ins>Tan</ins>, & Frank (2025). "Idiosyncratic but not opaque: Linguistic conventions formed in reference games are interpretable by naïve humans and vision–language models." <em>CogSci Proceedings.</em> <a href="10.31219/osf.io/7d6sv_v1">[preprint]</a>
-  - <ins>Tan</ins><sup>\*</sup>, Prystawski<sup>\*</sup>, Boyce, & Frank (2025). "Context informs pragmatic interpretation in vision--language models." <em>NeurIPS CogInterp Workshop Paper.</em> <a href="10.48550/arXiv.2511.03908">[paper]</a>
+  - Boyce, Prystawski, <ins>Tan</ins>, & Frank (2025). "Idiosyncratic but not opaque: Linguistic conventions formed in reference games are interpretable by naïve humans and vision–language models." <em>CogSci Proceedings.</em> <a href="https://doi.org/10.31219/osf.io/7d6sv_v1">[preprint]</a>
+  - <ins>Tan</ins><sup>\*</sup>, Prystawski<sup>\*</sup>, Boyce, & Frank (2025). "Context informs pragmatic interpretation in vision--language models." <em>NeurIPS CogInterp Workshop Paper.</em> <a href="https://doi.org/10.48550/arXiv.2511.03908">[paper]</a>
 
 ## open science, meta-science, and big team science
 
