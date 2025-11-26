@@ -43,7 +43,7 @@ The process of language learning is difficult to model, but recent advances in m
 
 - How do we <strong>evaluate the closeness</strong> of a language models to the process of human language development?
   - <ins>Tan</ins>, Yu, Long, Ma, Murray, Silverman, Yeatman, & Frank (2024). "DevBench: A multimodal developmental benchmark for language learning." <em>NeurIPS Proceedings.</em> <a href="https://doi.org/10.48550/arXiv.2406.10215">[paper]</a>
-  - Hu, <ins>Tan</ins>, Feng, & Frank (2025). "Language production is harder than comprehension for children and language models." <em>CogSci Proceedings.</a> <a href="https://escholarship.org/uc/item/5rz8b9jg">[abs]</a>
+  - Hu, <ins>Tan</ins>, Feng, & Frank (2025). "Language production is harder than comprehension for children and language models." <em>CogSci Proceedings.</em> <a href="https://escholarship.org/uc/item/5rz8b9jg">[abs]</a>
 
 - Can we train vision–language models on <strong>naturalistic developmental training</strong> data?
   - <ins>Tan</ins>, Hu, Long, & Frank (in progress). "Training vision–language models from the child's perspective."
