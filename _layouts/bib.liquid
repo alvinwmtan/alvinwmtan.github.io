@@ -189,7 +189,7 @@
       {% assign tags_sorted = tags_stripped | split: ',' | sort %}
       <div class="tags">
         {% for tag in tags_sorted %}
-          <span class="tag badge badge-secondary" data-tag="{{ tag }}">{{ tag }}</span>
+          <span class="tag" data-tag="{{ tag }}">{{ tag }}</span>
         {% endfor %}
       </div>
     {% endif %}

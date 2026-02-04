@@ -10,8 +10,9 @@ function tagColorIndex(tagName) {
 }
 
 function applyTagColors() {
-  document.querySelectorAll(".publications .tags .tag").forEach((el) => {
-    const tag = el.getAttribute("data-tag") || el.textContent.trim();
+  document.querySelectorAll(".tags .tag").forEach((el) => {
+    const tag = (el.getAttribute("data-tag") || el.textContent.trim() || "").trim();
+    if (!tag) return;
     const idx = tagColorIndex(tag);
     el.classList.add("tag-color-" + idx);
   });
