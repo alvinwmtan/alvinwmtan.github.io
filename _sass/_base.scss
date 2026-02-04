@@ -831,11 +831,10 @@ footer.sticky-bottom {
           margin-bottom: 0.25rem;
           padding: 0.25rem 0.5rem;
           font-size: 0.875rem;
-          border: 1px solid $orange-color;
+          background-color: var(--global-bg-color);
+          border: 1px solid var(--global-text-color-light);
+          color: var(--global-text-color);
           border-radius: 0.25rem;
-          background-color: $orange-color;
-          color: #fff;
-          font-weight: 500;
         }
       }
 
@@ -1235,25 +1234,6 @@ ninja-keys::part(ninja-input-wrapper) {
   border-color: var(--global-theme-color) !important;
 }
 
-#tag-filters {
-  .tag-filter {
-    transition: all 0.2s ease;
-    background-color: $orange-color;
-    border: 1px solid $orange-color;
-    color: #fff;
-    font-weight: 500;
-
-    &:hover {
-      filter: brightness(1.1);
-    }
-
-    &.active {
-      filter: brightness(1.15);
-      box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
-    }
-  }
-}
-
 .newsletter-form-button {
   background: var(--global-theme-color);
   color: var(--global-bg-color);
@@ -1332,6 +1312,29 @@ ninja-keys::part(ninja-input-wrapper) {
   .newsletter-form-container {
     margin-right: 20px;
     margin-left: 20px;
+  }
+}
+
+#tag-filters {
+  .tag-filter {
+    transition: all 0.2s ease;
+
+    &.active {
+      background-color: var(--global-theme-color);
+      border-color: var(--global-theme-color);
+      color: white;
+    }
+
+    &:hover {
+      border-color: var(--global-theme-color);
+      color: var(--global-theme-color);
+    }
+
+    &.active:hover {
+      background-color: var(--global-theme-color);
+      color: white;
+      opacity: 0.9;
+    }
   }
 }
 

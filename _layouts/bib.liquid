@@ -45,7 +45,7 @@
   {% endif %}
 
   <!-- Entry bib key -->
-  <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}"{% if entry.tags %} data-tags="{{ entry.tags | downcase }}"{% endif %}>
+  <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
@@ -184,12 +184,10 @@
 
     <!-- Tags -->
     {% if entry.tags %}
-      {% assign tags_array = entry.tags | split: ',' %}
-      {% capture tags_stripped %}{% for t in tags_array %}{{ t | strip }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
-      {% assign tags_sorted = tags_stripped | split: ',' | sort %}
       <div class="tags">
-        {% for tag in tags_sorted %}
-          <span class="tag" data-tag="{{ tag }}">{{ tag }}</span>
+        {% assign tags_array = entry.tags | split: ',' %}
+        {% for tag in tags_array %}
+          <span class="tag badge badge-secondary">{{ tag | strip }}</span>
         {% endfor %}
       </div>
     {% endif %}
