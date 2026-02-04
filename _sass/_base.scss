@@ -821,6 +821,23 @@ footer.sticky-bottom {
         }
       }
 
+      .tags {
+        padding-bottom: 0.5rem;
+        margin-top: 0.25rem;
+
+        .tag {
+          display: inline-block;
+          margin-right: 0.5rem;
+          margin-bottom: 0.25rem;
+          padding: 0.25rem 0.5rem;
+          font-size: 0.875rem;
+          background-color: var(--global-bg-color);
+          border: 1px solid var(--global-text-color-light);
+          color: var(--global-text-color);
+          border-radius: 0.25rem;
+        }
+      }
+
       .hidden {
         font-size: 0.875rem;
         max-height: 0px;
@@ -1215,6 +1232,29 @@ ninja-keys::part(ninja-input-wrapper) {
 
 .newsletter-form-input:focus {
   border-color: var(--global-theme-color) !important;
+}
+
+#tag-filters {
+  .tag-filter {
+    transition: all 0.2s ease;
+
+    &.active {
+      background-color: var(--global-theme-color);
+      border-color: var(--global-theme-color);
+      color: white;
+    }
+
+    &:hover {
+      border-color: var(--global-theme-color);
+      color: var(--global-theme-color);
+    }
+
+    &.active:hover {
+      background-color: var(--global-theme-color);
+      color: white;
+      opacity: 0.9;
+    }
+  }
 }
 
 .newsletter-form-button {
