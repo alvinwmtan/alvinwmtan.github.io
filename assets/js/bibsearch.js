@@ -1,26 +1,6 @@
 import { highlightSearchTerm } from "./highlight-search-term.js";
 
-const TAG_COLOR_COUNT = 12;
-
-function tagColorIndex(tagName) {
-  let h = 0;
-  const s = String(tagName).toLowerCase();
-  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0;
-  return h % TAG_COLOR_COUNT;
-}
-
-function applyTagColors() {
-  document.querySelectorAll(".tags .tag").forEach((el) => {
-    const tag = (el.getAttribute("data-tag") || el.textContent.trim() || "").trim();
-    if (!tag) return;
-    const idx = tagColorIndex(tag);
-    el.classList.add("tag-color-" + idx);
-  });
-}
-
 document.addEventListener("DOMContentLoaded", function () {
-  applyTagColors();
-
   // actual bibsearch logic
   const filterItems = (searchTerm, selectedTags = []) => {
     document.querySelectorAll(".bibliography, .unloaded").forEach((element) => element.classList.remove("unloaded"));
@@ -125,8 +105,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     tags.forEach((tag) => {
       const tagButton = document.createElement("button");
-      const colorClass = "tag-color-" + tagColorIndex(tag);
-      tagButton.className = "tag-filter btn btn-sm mr-2 mb-2 " + colorClass;
+      tagButton.className = "tag-filter btn btn-sm mr-2 mb-2";
       tagButton.textContent = tag;
       tagButton.setAttribute("data-tag", tag);
       tagButton.addEventListener("click", function () {
