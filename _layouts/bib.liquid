@@ -50,6 +50,8 @@
     <div class="title">
       {% if entry.doi %}
         <a href="https://doi.org/{{ entry.doi }}" target="_blank" rel="noopener noreferrer">{{ entry.title }}</a>
+      {% elsif entry.url %}
+        <a href="{{ entry.url }}" target="_blank" rel="noopener noreferrer">{{ entry.title }}</a>
       {% else %}
         {{ entry.title }}
       {% endif %}
