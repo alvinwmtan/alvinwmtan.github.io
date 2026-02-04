@@ -184,10 +184,12 @@
 
     <!-- Tags -->
     {% if entry.tags %}
+      {% assign tags_array = entry.tags | split: ',' %}
+      {% capture tags_stripped %}{% for t in tags_array %}{{ t | strip }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+      {% assign tags_sorted = tags_stripped | split: ',' | sort %}
       <div class="tags">
-        {% assign tags_array = entry.tags | split: ',' %}
-        {% for tag in tags_array %}
-          <span class="tag badge badge-secondary">{{ tag | strip }}</span>
+        {% for tag in tags_sorted %}
+          <span class="tag badge badge-secondary" data-tag="{{ tag }}">{{ tag }}</span>
         {% endfor %}
       </div>
     {% endif %}
