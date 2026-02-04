@@ -50,7 +50,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   };
 
-<<<<<<< HEAD
   // Get all unique tags from bibliography entries
   const getAllTags = () => {
     const tagsSet = new Set();
@@ -101,8 +100,6 @@ document.addEventListener("DOMContentLoaded", function () {
     filterItems(searchTerm, selectedTags);
   };
 
-=======
->>>>>>> parent of 57857f2 (added tags)
   const updateInputField = () => {
     const hashValue = decodeURIComponent(window.location.hash.substring(1)); // Remove the '#' character
     document.getElementById("bibsearch").value = hashValue;
