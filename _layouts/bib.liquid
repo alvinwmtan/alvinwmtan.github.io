@@ -193,9 +193,12 @@
     <!-- Tags -->
     {% if entry.tags %}
       <div class="tags">
-        {% assign tags_array = entry.tags | split: ',' %}
+        {% assign tags_array = entry.tags | replace: ', ', ',' | split: ',' | sort %}
         {% for tag in tags_array %}
-          <span class="tag badge badge-secondary">{{ tag | strip }}</span>
+          {% assign tag_clean = tag | strip %}
+          {% if tag_clean != blank %}
+            <span class="tag badge badge-secondary">{{ tag_clean }}</span>
+          {% endif %}
         {% endfor %}
       </div>
     {% endif %}
